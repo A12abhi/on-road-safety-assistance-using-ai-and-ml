@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const dbState = { connected: false };
+mongoose.set('bufferCommands', false);
 
 const connectDB = async () => {
   const uri = process.env.MONGO_URI;
