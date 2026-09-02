@@ -1,0 +1,21 @@
+{
+  "name": "on-road-safety-assistance-using-ai-and-ml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered MERN application for intelligent vehicle assistance, emergency support, diagnostics, fuel prediction, insurance, emission analysis, and smart maintenance.",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/A12abhi/on-road-safety-assistance-using-ai-and-ml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
